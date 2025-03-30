@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-27T00:03:28.066988+00:00",
+  "timestamp": "2025-03-30T00:03:24.957645+00:00",
   "repo": "jhoyla/draft-jhoyla-bot-auth-use-cases",
   "labels": [
     {
@@ -54,7 +54,7 @@
     {
       "number": 1,
       "id": "PR_kwDOOKZ5ns6QHMfv",
-      "title": "Main",
+      "title": "First draft",
       "url": "https://github.com/jhoyla/draft-jhoyla-bot-auth-use-cases/pull/1",
       "state": "OPEN",
       "author": "smhendrickson",
@@ -63,7 +63,7 @@
       "labels": [],
       "body": "first draft pass based on IETF 122 SM discussion.",
       "createdAt": "2025-03-25T21:24:18Z",
-      "updatedAt": "2025-03-25T21:24:18Z",
+      "updatedAt": "2025-03-27T14:17:09Z",
       "baseRepository": "jhoyla/draft-jhoyla-bot-auth-use-cases",
       "baseRefName": "main",
       "baseRefOid": "fcaf9b98f561f19b860a088f830c60f88aa66cea",
