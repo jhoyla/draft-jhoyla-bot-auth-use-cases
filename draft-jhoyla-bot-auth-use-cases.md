@@ -57,7 +57,7 @@ informative:
 
 TODO Abstract
 
-This work originated from a discussion that occured at an IETF 122 Side Meeting on Authentication Bot Traffic on the web. 
+This work originated from a discussion that occured at an IETF 122 Side Meeting on Authentication Bot Traffic on the web.
 
 
 --- middle
@@ -96,14 +96,14 @@ These methods lack cryptographic robustness, are often inaccurate, do not offer 
 
 ## 4.1. HTTP Signatures
 
-Using HTTP Signatures {{RFC9421}} (or a similar JWT approach) allows a client to sign parts of an HTTP request using an asymmetric key pair, providing authenticity and integrity assurance at the application layer. Key considerations include:
+Using HTTP Signatures {{?RFC9421}} (or a similar JWT approach) allows a client to sign parts of an HTTP request using an asymmetric key pair, providing authenticity and integrity assurance at the application layer. Key considerations include:
 
 * **Replay Attacks:** Signatures could potentially be replayed across different hosts or contexts. Signing components that bind the signature to the specific request context (e.g., the `Host` header, a timestamp, a nonce) is required for mitigation.
 * **Key Management:** Similar to mTLS, a mechanism is needed for discovering, provisioning, and managing the keys used for signing.
 
 ## 4.2. Mutual TLS (mTLS)
 
-Using TLS client certificates (mTLS) {{RFC8446}} for authentication provides cryptographic authentication tied to the TLS layer. Key challenges include:
+Using TLS client certificates (mTLS) {{?RFC8446}} for authentication provides cryptographic authentication tied to the TLS layer. Key challenges include:
 
 * **User Experience:** Browsers often present confusing or intrusive certificate selection dialogs to users if mTLS is requested unconditionally. draft-jhoyla-req-mtls-flag was presented as a potential way to mitigate this by allowing servers to signal *optional* client certificate authentication support, potentially avoiding issues for users without (or clients that don't support) certificates. Support for this flag will be needed at all TLS Servers and Clients using this method to positively authorize an interaction.
 * **Deployment:** Provisioning, managing, and revoking client certificates at scale can be complex, and must be carefully considered by the client owner.
