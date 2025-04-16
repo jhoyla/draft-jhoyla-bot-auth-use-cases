@@ -9,14 +9,14 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+# area: AREA
+# workgroup: WG Working Group
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: https://github.com/jhoyla/draft-jhoyla-bot-auth-use-cases
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: "jhoyla/draft-jhoyla-bot-auth-use-cases"
 
 author:
  -
